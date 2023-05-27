@@ -1,10 +1,8 @@
 # Dynamic-table-in-quasar-framework
 dynamic table in quasar framework with add, update and delete. focused on component reuse...
 
-<h1>El primer paso es crear el archivo docker-compose.yml en el proyecto para garantizar el despliegue en cualquiera máquina usando Docker…</h1> 
-<section>
-<div class="row">
-<code>
+##El primer paso es crear el archivo docker-compose.yml en el proyecto para garantizar el despliegue en cualquiera máquina usando Docker… 
+```
             version: '1'
 
             services:
@@ -22,6 +20,4 @@ dynamic table in quasar framework with add, update and delete. focused on compon
                 tty: true
                 environment:
                 - CHOKIDAR_USEPOLLING=true
-</code>
-</div>
-</section>
+```
