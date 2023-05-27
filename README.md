@@ -1,7 +1,9 @@
 # Dynamic-table-in-quasar-framework
 dynamic table in quasar framework with add, update and delete. focused on component reuse...
 
-## El primer paso es crear el archivo docker-compose.yml en el proyecto para garantizar el despliegue en cualquiera máquina usando Docker… 
+## Para poder desplegar el proyecto es necesario descargar e instalar Docker desktop. Teniendo Docker desktop en la PC se procede con lo siguiente:
+
+## El primer paso es crear el archivo docker-compose.yml en el proyecto para garantizar el despliegue en cualquier máquina usando Docker…
 ```
             version: '1'
 
