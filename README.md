@@ -23,3 +23,5 @@ dynamic table in quasar framework with add, update and delete. focused on compon
                 environment:
                 - CHOKIDAR_USEPOLLING=true
 ```
+
+![Actualmente este sitio está en construcción ](https://static9.depositphotos.com/1228953/1153/i/450/depositphotos_11530836-stock-photo-under-construction.jpg)
