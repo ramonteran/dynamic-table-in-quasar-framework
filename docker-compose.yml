@@ -1,11 +1,10 @@
-version: '1'
+version: '3'
 
 services:
   dynamic-table-in-quasar-framework:
     image: ramonteran/quasar-cli:1.0
     container_name: Dynamic-table-in-quasar-framework
     working_dir: /home/node/app/admin
-    command: /bin/sh -c "yarn && quasar dev"
     ports: 
       - "9100:9100"
     volumes: 
@@ -15,4 +14,5 @@ services:
     tty: true
     environment:
       - CHOKIDAR_USEPOLLING=true
+    command: /bin/sh -c "yarn && quasar dev"
 
